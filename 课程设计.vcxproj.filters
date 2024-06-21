@@ -33,5 +33,14 @@
     <ClCompile Include="操作面板.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="信息保存.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="打开文件.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="添加药品信息.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -3,15 +3,22 @@
 #include<string.h>
 #include<windows.h> 
 #include<conio.h> 
-char n[5];   		//编号 
+
+char n[5];		//编号 
 char na[20]; 	//名字 
 int num;    	//剩余量 
 int pc;     	//价格 
+char pro[30];	//生产日期
+char t[10];		//保质期
+
+
 typedef struct Medicine {
 	char id[5];					//药品编号
 	char name[20];			//药品名字
 	int sum;				//剩余量 
 	int  price;				//价格
+	char production[30];	//生产日期
+	char time[10];			//保质期
 	struct Medicine* next;	//指针域 
 
 }Linklist;
