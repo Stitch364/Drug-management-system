@@ -27,6 +27,7 @@ struct user
 void first();								   //登录界面 
 void zhuce();								   //注册 
 void denglu();								   //登录 
+void control();								   //操作面板
 Linklist* add_medicine(Linklist* head);        //添加药品信息 
 Linklist* delet_medicine(Linklist* head);      //删除药品信息 
 void change_medicine(Linklist* head);          //修改药品信息 
