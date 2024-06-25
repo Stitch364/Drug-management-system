@@ -20,51 +20,51 @@ void control() {
 
 	int i;
 	scanf("%d", &i);
-	int flag = 1;
-	if(flag)
-	{
+	while (i > 9 ||i < 1) {
+		printf("输入的数字有误！\n请重新输入：");
+		scanf("%d", &i);
+		printf("\n");
+	}
+
 		switch (i)
 		{
 		case 1:
 
-			flag = 0;
+
 			break;
 		case 2:
 
-			flag = 0;
+
 			break;
 		case 3:
 
-			flag = 0;
+
 			break;
 		case 4:
 
-			flag = 0;
+
 			break;
 		case 5:
 
-			flag = 0;
+
 			break;
 		case 6:
 
-			flag = 0;
+
 			break;
 		case 7:
-			flag 
-				= 0;
+
 			break;
 		case 8:
 
-			flag = 0;
+
 			break;
 		case 9:
-
-			flag = 0;
+			printf("即将退出！");
+			Sleep(2000);
 			break;
 		default:
-			printf("请输入有效的数字！\n");
 			break;
 		}
-	}
 
 }

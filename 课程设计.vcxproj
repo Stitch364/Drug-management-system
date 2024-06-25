@@ -130,12 +130,20 @@
     <ClCompile Include="first draft.c" />
     <ClCompile Include="medicine.h" />
     <ClCompile Include="信息保存.c" />
+    <ClCompile Include="修改药品信息.c" />
+    <ClCompile Include="删除药品信息.c" />
+    <ClCompile Include="总剩余量.c" />
     <ClCompile Include="打开文件.c" />
+    <ClCompile Include="排序.c" />
+    <ClCompile Include="插入药品信息.c" />
     <ClCompile Include="操作面板.c" />
     <ClCompile Include="文件操作.c" />
+    <ClCompile Include="查询.c" />
+    <ClCompile Include="查询价格.c" />
     <ClCompile Include="注册.c" />
     <ClCompile Include="添加药品信息.c" />
     <ClCompile Include="登录.c" />
+    <ClCompile Include="输出药品信息.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

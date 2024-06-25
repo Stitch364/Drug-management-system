@@ -42,5 +42,29 @@
     <ClCompile Include="添加药品信息.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="删除药品信息.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="修改药品信息.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="查询.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="总剩余量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="查询价格.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="输出药品信息.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="插入药品信息.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -9,7 +9,7 @@ Linklist* open_medicine() {
 	head = (Linklist*)malloc(sizeof(Linklist));
 	if (head == NULL ) {
 		printf("保存出错了！");
-		return;
+		return NULL;
 	}
 
 	//创建文件指针
@@ -33,7 +33,7 @@ Linklist* open_medicine() {
 			p = (Linklist*)malloc(sizeof(Linklist));
 			if (p == NULL) {
 				printf("保存出错了！");
-				return;
+				return NULL;
 			}
 
 
