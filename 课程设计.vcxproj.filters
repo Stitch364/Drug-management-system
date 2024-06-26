@@ -66,5 +66,11 @@
     <ClCompile Include="插入药品信息.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="重写文件.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="继续选择函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

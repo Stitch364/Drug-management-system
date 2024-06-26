@@ -8,6 +8,10 @@ void insert_medicine(Linklist* head) {
 	q = head;
 	//创建新节点
 	p = (Linklist*)malloc(sizeof(Linklist));
+	if (p == NULL) {
+		printf("error");
+		return;
+	}
 	scanf("%s", n);
 	while (q->next != NULL)
 	{

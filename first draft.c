@@ -36,7 +36,7 @@ void first()
 	default:
 		system("cls");
 		printf("请输入有效的数字！");
-		Sleep(3000);
+		Sleep(1000);
 		system("cls");
 		first();
 	}
@@ -46,8 +46,11 @@ void first()
 int main() 
 {
 	//初始化
-	//first();
-	control();
-		
+	first();
+	//control();
+	//Linklist* head;
+	//head = open_medicine();//打开文件
+	//print_medicine(head);//打印信息
+
 	return 0;
 }

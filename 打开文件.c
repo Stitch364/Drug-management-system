@@ -28,15 +28,15 @@ Linklist* open_medicine() {
 		//创建链表，将文件中的药品信息写到链表中
 		head->next = NULL;
 		q = head;
-		while (!feof(fp))
+		//char ch;
+		while (fgetc(fp)!=EOF)
 		{
+			fseek(fp, -1, SEEK_CUR);
 			p = (Linklist*)malloc(sizeof(Linklist));
 			if (p == NULL) {
 				printf("保存出错了！");
 				return NULL;
 			}
-
-
 			fscanf(fp, "药品编号:%s  名称:%s  剩余量:%d  价格:%d  生产日期:%s  保质期:%s\n", p->id
 				, p->name, &p->sum, &p->price, p->production, p->time);
 			q->next = p;
@@ -45,7 +45,6 @@ Linklist* open_medicine() {
 		q->next = NULL;
 		//关闭文件
 		fclose(fp);
-		printf("\n文件信息已读出\n");
 	}
 	//返回链表的头指针
 	return head;

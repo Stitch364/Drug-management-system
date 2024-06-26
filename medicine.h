@@ -50,3 +50,5 @@ void findprice_medicine(Linklist* head);       //查询药品价格
 void insert_medicine(Linklist* head);          //插入药品信息 
 Linklist* open_medicine();                     //打开文件 
 void print_medicine(Linklist* head);           //输出药品信息
+void write_medicine(Linklist* head);		   //重写文件
+void my_continue();							   //操作完继续选择

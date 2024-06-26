@@ -143,7 +143,9 @@
     <ClCompile Include="注册.c" />
     <ClCompile Include="添加药品信息.c" />
     <ClCompile Include="登录.c" />
+    <ClCompile Include="继续选择函数.c" />
     <ClCompile Include="输出药品信息.c" />
+    <ClCompile Include="重写文件.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

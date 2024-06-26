@@ -50,6 +50,7 @@ Linklist* add_medicine(Linklist* head) {
 		p->next = NULL;
 		q->next = p;
 		q = p;
+		printf("药品信息添加成功。\n");
 	}
 	return head;
 }
